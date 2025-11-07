@@ -29,19 +29,32 @@ main {
 	overflow: auto;
     color: #EEEEEE;
 }
-
 h1 {
 	font-weight: bold;
-	margin-bottom: 50px;
-	font-size: 55px;
+	margin-bottom: 20px;
+	font-size: 75px;
 	text-align: center;
     color: #EEEEEE;
 }
-p {
+h2 {
+	font-weight: bold;
+	margin-bottom: 20px;
+	font-size: 40px;
+	text-align: center;
+    color: #EEEEEE;
+}
+h3 {
+	font-weight: bold;
+	margin-bottom: 20px;
+	font-size: 30px;
+	text-align: center;
+    color: #EEEEEE;
+}
+p, li {
 	margin-bottom: 20px;
 	line-height: 26px;
     font-size: 24px;
-    text-align: center;
+    text-align: left;
     color: #EEEEEE;
 }
 .youtube {
@@ -88,6 +101,7 @@ iframe[seamless]{
 	flex-flow: column nowrap;
 	padding-left: 2lh;
     padding-right: 2lh;
+	text-align: center;
 }
 .information p {
 	margin-bottom: 20px;
@@ -95,6 +109,7 @@ iframe[seamless]{
     font-size: 24px;
 	justify-content: center;
     color: #EEEEEE;
+	text-align: center;
 }
 .information img {
 	border: #EEEEEE 5px solid;
@@ -104,6 +119,28 @@ iframe[seamless]{
 }
 .information h1 {
 	justify-content: center;
+}
+.documentation{
+	display: flex;
+	flex-flow: column nowrap;
+	padding-left: 2lh;
+    padding-right: 2lh;
+	text-align: left;
+}
+.documentation p {
+	margin-bottom: 20px;
+	line-height: 26px;
+    font-size: 24px;
+    color: #EEEEEE;
+}
+.documentation img {
+	border: #EEEEEE 5px solid;
+	align-self: center;
+	width: 600px;
+	border-radius: 15px;
+}
+.documentation h1, h2, h3 {
+	text-align: left;
 }
 .codeblock {
     margin-left: 10%;
