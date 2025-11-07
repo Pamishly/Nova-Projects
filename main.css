@@ -82,11 +82,12 @@ iframe[seamless]{
 .button p{
 	padding-top: 17px;
 	margin: auto;
-
 }
 .information{
 	display: flex;
 	flex-flow: column nowrap;
+	padding-left: 2lh;
+    padding-right: 2lh;
 }
 .information p {
 	margin-bottom: 20px;
@@ -180,92 +181,73 @@ iframe[seamless]{
 	}
 
 }
-	@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
 	.information img {
-		width: 300px;
-	}
+	width: 300px;
 }
-
-/* Navbar container */
+}
 .navbar {
 	overflow: hidden;
 	background-color: #0000009a;
 	font-family: Arial;
 	border-radius: 15px;
-  }
-  
-  /* Links inside the navbar */
-  .navbar a {
+ }
+.navbar a {
 	float: left;
 	font-size: 16px;
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-  }
-  
-  /* The dropdown container */
-  .dropdown {
+}
+.dropdown {
 	float: left;
 	overflow: hidden;
-  }
-  
-  /* Dropdown button */
-  .dropdown .dropbtn {
+}
+.dropdown .dropbtn {
 	font-size: 16px;
 	border: none;
 	outline: none;
 	color: white;
 	padding: 14px 16px;
 	background-color: inherit;
-	font-family: inherit; /* Important for vertical align on mobile phones */
-	margin: 0; /* Important for vertical align on mobile phones */
-  }
-  
-  /* Add a red background color to navbar links on hover */
-  .navbar a:hover, .dropdown:hover .dropbtn {
+	font-family: inherit;
+	margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
 	background-color: #0077ff4f;
-  }
-  
-  /* Dropdown content (hidden by default) */
-  .dropdown-content {
+}
+.dropdown-content {
 	display: none;
 	position: absolute;
 	background-color: #0000009a;
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
-
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
+}
+.dropdown-content a {
 	float: none;
 	color: rgb(255, 255, 255);
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
 	text-align: left;
-  }
-  
-  /* Add a grey background color to dropdown links on hover */
-  .dropdown-content a:hover {
+}
+.dropdown-content a:hover {
 	background-color: #0077ff4f;
-  }
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
+}
+.dropdown:hover .dropdown-content {
 	display: block;
-  }
-	.cardcont {
-		display: flex;
-		justify-content: center;
-		flex-wrap: wrap;
-	}
-  .card img {
+}
+.cardcont {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.card img {
 	width: 350px;
-  }
-  .card {
+}
+.card {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -277,10 +259,17 @@ iframe[seamless]{
 	padding: 10px;
 	margin: 25px;
 	background: #0000009a;
-  }
-  .card:hover {
+}
+.card:hover {
 	background: #0077ff4f;
-  }
-  .wtitle {
+}
+.wtitle {
 	font-size: 35px;
-  }
+}
+.textlogo {
+	height: 15px;
+	text-wrap-mode: nowrap;
+}
+a:visited {
+	color:white;
+}
